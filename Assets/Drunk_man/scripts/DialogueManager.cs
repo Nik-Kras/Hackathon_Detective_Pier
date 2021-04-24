@@ -12,12 +12,17 @@ public class DialogueManager : MonoBehaviour {
 	public VerticalLayoutGroup questionLayoutGroup;
 	public GameObject prefabQuestionChoose;
 
-	public Animator animator;
+	public static DialogueManager instance; // Экземпляр объекта
+
+	[SerializeField]
+	private Animator dialogueAnimator;
 
 	private Dialogue currentDialogue;
 	private Queue<string> sentences;
+	private Animator _currentAnimator;
 
-	public static DialogueManager instance = null; // Экземпляр объекта
+	private static readonly int IsSpeakingTo = Animator.StringToHash("IsSpeakingTo");
+	private static readonly int IsOpen = Animator.StringToHash("IsOpen");
 
 	// Use this for initialization
 	void Start () 
@@ -26,14 +31,23 @@ public class DialogueManager : MonoBehaviour {
 		instance = this;
 	}
 
-	public void StartDialogue (string name, Sprite portret, Dialogue dialogue)
+	public void StartDialogue (string name, Sprite portret, Dialogue dialogue, Animator animator = null)
 	{
-		animator.SetBool("IsOpen", true);
+		dialogueAnimator.SetBool(IsOpen, true);
 
 		nameText.text = name;
 		portretImage.sprite = portret;
 
 		ContinueDialogue(dialogue);
+
+		if (_currentAnimator)
+			_currentAnimator.SetBool(IsSpeakingTo, false);
+
+		if (animator)
+		{
+			animator.SetBool(IsSpeakingTo, true);
+			_currentAnimator = animator;
+		}
 	}
 
 	private void ContinueDialogue(Dialogue dialogue)
@@ -66,10 +80,10 @@ public class DialogueManager : MonoBehaviour {
 		
 		string sentence = sentences.Dequeue();
 		StopAllCoroutines();
-		StartCoroutine(TypeSentence(sentence));
+		StartCoroutine(TypeSentenceCorontine(sentence));
 	}
 
-	IEnumerator TypeSentence (string sentence)
+	IEnumerator TypeSentenceCorontine (string sentence)
 	{
 		dialogueText.text = "";
 		foreach (char letter in sentence.ToCharArray())
@@ -102,12 +116,11 @@ public class DialogueManager : MonoBehaviour {
 	{
 		foreach (Question question in currentDialogue.questions.questions)
 		{
+			// we don't create dialog option if player don't have specific item
 			if (question.inventoryContainsObjectKey != "")
 			{
-				if (!Inventory.instance.objectKeys.Contains(question.inventoryContainsObjectKey))
-				{
+				if (!Inventory.instance.Has(question.inventoryContainsObjectKey))
 					continue;
-				}
 			}
 			
 			AddQuestion(question.question).GetComponentInChildren<Button>().onClick.AddListener(() => { SelectQuestion(question); });
@@ -120,9 +133,14 @@ public class DialogueManager : MonoBehaviour {
 		{
 			EndDialogue();
 		}
-		else
+		else if (question.dialogue)
 		{
 			ContinueDialogue(question.dialogue);
+		}
+
+		if (question.sequenceEvent != "")
+		{
+			// TODO: Event system
 		}
 	}
 
@@ -138,6 +156,9 @@ public class DialogueManager : MonoBehaviour {
 	
 	void EndDialogue()
 	{
-		animator.SetBool("IsOpen", false);
+		dialogueAnimator.SetBool(IsOpen, false);
+		
+		if (_currentAnimator)
+			_currentAnimator.SetBool(IsSpeakingTo, false);
 	}
 }

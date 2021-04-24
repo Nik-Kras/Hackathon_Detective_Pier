@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14afe3238286e144096f3ffdb8cb4518, type: 3}
-  m_Name: Whatkeihask
+  m_Name: VODKA
   m_EditorClassIdentifier: 
   sentences:
-  - That he want cookies
-  - (I don't trust him)
-  questions: {fileID: 11400000, guid: 2df67396d486ca64a8d3b4e358d3f1d8, type: 2}
+  - (It's vodka)
+  - (Tastes good)
+  - (I need it)
+  questions: {fileID: 0}

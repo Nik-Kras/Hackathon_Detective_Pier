@@ -5,10 +5,18 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public static Inventory instance = null; // Экземпляр объекта
-    public List<string> objectKeys;
+
+    [SerializeField]
+    private AudioSource _audioSource;
+
+    private List<string> _objectKeys;
+    private string _selectedObjectKey;
 
     // Метод, выполняемый при старте игры
-    void Start () {
+    void Start ()
+    {
+        _objectKeys = new List<string>();
+        
         // Теперь, проверяем существование экземпляра
         if (instance == null) { // Экземпляр менеджера был найден
             instance = this; // Задаем ссылку на экземпляр объекта
@@ -28,4 +36,17 @@ public class Inventory : MonoBehaviour
     private void InitializeManager(){
         /* TODO: Здесь мы будем проводить инициализацию */
     }
+
+    public void OnPickup(string key)
+    {
+        _objectKeys.Add(key);
+        _audioSource.Play();
+    }
+
+    public bool Has(string key)
+    {
+        return _objectKeys.Contains(key);
+    }
+
+    public string selectedObjectKey => _selectedObjectKey;
 }
