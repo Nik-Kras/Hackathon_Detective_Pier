@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e87094207160f3549bc25e32c65f0215, type: 3}
+  m_Name: AskMike
+  m_EditorClassIdentifier: 
+  questions:
+  - question: Who are you?
+    dialogue: {fileID: 11400000, guid: 5c6a3b0b76e13f6498a9877b9480fd07, type: 2}
+    inventoryContainsObjectKey: 
+    endConversation: 0
+  - question: Why we still here?
+    dialogue: {fileID: 11400000, guid: d9962d1ada7c15c41be80e8987e52210, type: 2}
+    inventoryContainsObjectKey: 
+    endConversation: 0
+  - question: Tell a story
+    dialogue: {fileID: 11400000, guid: 06e2ba2eea903a643be783e076d03bf8, type: 2}
+    inventoryContainsObjectKey: 
+    endConversation: 0
+  - question: '[End conversation]'
+    dialogue: {fileID: 0}
+    inventoryContainsObjectKey: 
+    endConversation: 1
