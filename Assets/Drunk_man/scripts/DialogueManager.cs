@@ -159,6 +159,8 @@ public class DialogueManager : MonoBehaviour {
 		Instance.GetComponent<QuestionChoose>().text.text = questionText;
 		Instance.transform.SetParent(questionLayoutGroup.transform);
 		Instance.transform.SetAsFirstSibling();
+		
+		UnityEngine.UI.LayoutRebuilder.ForceRebuildLayoutImmediate((RectTransform)questionLayoutGroup.transform);
 
 		return Instance;
 	}
