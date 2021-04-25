@@ -17,29 +17,35 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 9c794f88f0896a0479cda8b8d88743a7, type: 2}
     inventoryContainsObjectKey: 
     sequenceEvent: 
+    evedenceKeyEvent: 
     endConversation: 0
   - question: Do you already have suspects?
     dialogue: {fileID: 11400000, guid: 559c7e77becc19b44b2ef83307c9c81b, type: 2}
     inventoryContainsObjectKey: 
     sequenceEvent: 
+    evedenceKeyEvent: 
     endConversation: 0
   - question: 'Where he was seen the last time before the murder? '
     dialogue: {fileID: 11400000, guid: 9accd2c5c7f99c049b3d2b6ff5d5a83a, type: 2}
     inventoryContainsObjectKey: 
     sequenceEvent: 
+    evedenceKeyEvent: 
     endConversation: 0
   - question: Where was Ann before a murder?
     dialogue: {fileID: 11400000, guid: 71da732faef59b344b217fa88adfd6f7, type: 2}
     inventoryContainsObjectKey: 
     sequenceEvent: 
+    evedenceKeyEvent: 
     endConversation: 0
   - question: I have already asked all the questions I wanted. I am done.
     dialogue: {fileID: 11400000, guid: 58fc7d0779dcafe4da7a12ad73ffd5a2, type: 2}
     inventoryContainsObjectKey: 
     sequenceEvent: 
+    evedenceKeyEvent: 
     endConversation: 0
   - question: '[End Conversation]'
     dialogue: {fileID: 0}
     inventoryContainsObjectKey: 
     sequenceEvent: 
+    evedenceKeyEvent: 
     endConversation: 1

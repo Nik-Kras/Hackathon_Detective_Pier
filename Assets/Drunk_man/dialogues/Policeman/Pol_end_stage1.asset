@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - 'Great, because we are done too. '
+  - Here, you can take the murder file on the table. All evidences should be written
+    there.
   questions: {fileID: 11400000, guid: a1f6a2660dff24349a36350306274e6c, type: 2}

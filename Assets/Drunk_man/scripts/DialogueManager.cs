@@ -18,10 +18,11 @@ public class DialogueManager : MonoBehaviour {
 	public static DialogueManager instance; // Экземпляр объекта
 
 	public StringEvent onEvent; 
+	public UnityEvent onShowInterface; 
 
-	[SerializeField]
-	private Animator dialogueAnimator;
-
+	[SerializeField] private Animator dialogueAnimator;
+	[SerializeField] private AudioSource _clickPlay;
+	
 	private Dialogue currentDialogue;
 	private Queue<string> sentences;
 	private Animator _currentAnimator;
@@ -45,6 +46,7 @@ public class DialogueManager : MonoBehaviour {
 
 		nameText.text = name;
 		portretImage.sprite = portret;
+		portretImage.enabled = portret;
 
 		ContinueDialogue(dialogue);
 
@@ -57,7 +59,14 @@ public class DialogueManager : MonoBehaviour {
 			_currentAnimator = animator;
 		}
 	}
-
+	public void EndDialogue()
+	{
+		dialogueAnimator.SetBool(IsOpen, false);
+		
+		if (_currentAnimator)
+			_currentAnimator.SetBool(IsSpeakingTo, false);
+	}
+	
 	private void ContinueDialogue(Dialogue dialogue)
 	{
 		sentences.Clear();
@@ -97,7 +106,7 @@ public class DialogueManager : MonoBehaviour {
 		foreach (char letter in sentence.ToCharArray())
 		{
 			dialogueText.text += letter;
-			yield return new WaitForSeconds(0.025f);
+			yield return new WaitForSeconds(0.01f);
 		}
 		
 		// end typing
@@ -108,7 +117,7 @@ public class DialogueManager : MonoBehaviour {
 		}
 		else
 		{
-			AddQuestion("[Continue]").GetComponentInChildren<Button>().onClick.AddListener(DisplayNextSentence);
+			AddQuestion("[Continue]").GetComponentInChildren<Button>().onClick.AddListener(() => { _clickPlay.Play(); DisplayNextSentence(); });
 		}
 	}
 
@@ -131,7 +140,7 @@ public class DialogueManager : MonoBehaviour {
 					continue;
 			}
 			
-			AddQuestion(question.question).GetComponentInChildren<Button>().onClick.AddListener(() => { SelectQuestion(question); });
+			AddQuestion(question.question).GetComponentInChildren<Button>().onClick.AddListener(() => { _clickPlay.Play(); SelectQuestion(question); });
 		}
 	}
 	
@@ -150,6 +159,16 @@ public class DialogueManager : MonoBehaviour {
 		{
 			onEvent.Invoke(question.sequenceEvent);
 			_events.Add(question.sequenceEvent);
+
+			if (question.sequenceEvent == "GAME_START")
+			{
+				onShowInterface.Invoke();
+			}
+		}
+
+		if (question.evedenceKeyEvent != "")
+		{
+			Inventory.instance.OnPickup(question.evedenceKeyEvent);
 		}
 	}
 
@@ -163,14 +182,6 @@ public class DialogueManager : MonoBehaviour {
 		UnityEngine.UI.LayoutRebuilder.ForceRebuildLayoutImmediate((RectTransform)questionLayoutGroup.transform);
 
 		return Instance;
-	}
-	
-	void EndDialogue()
-	{
-		dialogueAnimator.SetBool(IsOpen, false);
-		
-		if (_currentAnimator)
-			_currentAnimator.SetBool(IsSpeakingTo, false);
 	}
 	
 	public List<string> events => _events;
