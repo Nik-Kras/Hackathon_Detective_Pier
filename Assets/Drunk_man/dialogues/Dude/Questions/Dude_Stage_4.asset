@@ -33,8 +33,8 @@ MonoBehaviour:
     inventoryContainsObjectKey: 
     sequenceEvent: 
     endConversation: 0
-  - question: Do you always drunk?
-    dialogue: {fileID: 11400000, guid: 5cbf038dc1b5eb04086158d416205dff, type: 2}
+  - question: '[End Dialoge]'
+    dialogue: {fileID: 0}
     inventoryContainsObjectKey: 
     sequenceEvent: 
-    endConversation: 0
+    endConversation: 1

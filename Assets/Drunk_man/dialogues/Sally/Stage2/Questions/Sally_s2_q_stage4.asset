@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e87094207160f3549bc25e32c65f0215, type: 3}
+  m_Name: Sally_s2_q_stage4
+  m_EditorClassIdentifier: 
+  questions:
+  - question: "Let\u2019s talk about it later, okay?"
+    dialogue: {fileID: 11400000, guid: 266629b948538d64e9d81e6a309b97dc, type: 2}
+    inventoryContainsObjectKey: 
+    sequenceEvent: Sally_Loop_event
+    endConversation: 0

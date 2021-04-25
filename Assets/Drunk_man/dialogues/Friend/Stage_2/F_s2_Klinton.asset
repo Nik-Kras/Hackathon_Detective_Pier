@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14afe3238286e144096f3ffdb8cb4518, type: 3}
+  m_Name: F_s2_Klinton
+  m_EditorClassIdentifier: 
+  sentences:
+  - 'Uh.. '
+  - We've been best friends for a long time. We started a fishing business together
+    and starting as a poor fishers we became good wealth men.
+  - 'Klinton was strong and in some case rude man. He set a couple of rules for work,
+    like: no alcohol, start working as early as you can, all money should be spend
+    on family or on improving fishing equipment. '
+  - 'That is why now Klintons family have such good tools that even a wife can handle
+    them. Or they can sell it can sell at a good price, so that they can get money
+    for a while. '
+  - Sorry, this was out of topic.
+  questions: {fileID: 11400000, guid: 33678f58e79850144ba166ae62203922, type: 2}

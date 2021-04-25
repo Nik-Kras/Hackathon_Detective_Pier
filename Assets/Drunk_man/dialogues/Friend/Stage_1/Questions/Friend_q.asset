@@ -18,8 +18,13 @@ MonoBehaviour:
     inventoryContainsObjectKey: 
     sequenceEvent: 
     endConversation: 0
-  - question: 
-    dialogue: {fileID: 0}
+  - question: "What can you say about Klintons\u2019 relationships?"
+    dialogue: {fileID: 11400000, guid: abaf1a78e0b30474881d81b64e951125, type: 2}
     inventoryContainsObjectKey: 
     sequenceEvent: 
     endConversation: 0
+  - question: '[End Conversation]'
+    dialogue: {fileID: 0}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 1

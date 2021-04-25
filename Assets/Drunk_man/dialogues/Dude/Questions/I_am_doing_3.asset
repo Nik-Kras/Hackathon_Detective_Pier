@@ -16,5 +16,5 @@ MonoBehaviour:
   - question: I am investigating a murder case...
     dialogue: {fileID: 11400000, guid: 651b0a5309d822341bf35f3b4a32aad4, type: 2}
     inventoryContainsObjectKey: 
-    sequenceEvent: 
+    sequenceEvent: Loop_Dude_Dialogue
     endConversation: 0
