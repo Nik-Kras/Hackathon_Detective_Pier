@@ -41,6 +41,10 @@ public class Locations : MonoBehaviour
             {
                 _currentCamera.enabled = false;
                 keyPair.camera.enabled = true;
+                
+                _currentCamera.gameObject.SetActive(false);
+                keyPair.camera.gameObject.SetActive(true);
+
                 _currentCamera = keyPair.camera;
                 
                 return;
