@@ -2335,7 +2335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17ce43d65b660474db62bfe73f97f9cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startDialogue: {fileID: 11400000, guid: bafbc9e4ff08f9e4594581417e75f1e1, type: 2}
+  startDialogue: {fileID: 11400000, guid: 9b956d15c4b0f5f46886d70f9357efb9, type: 2}
   npcName: Mike
   portret: {fileID: 21300000, guid: 8a739da26e90e3e48a44f7c32dd408df, type: 3}
   _animator: {fileID: 1603059979}

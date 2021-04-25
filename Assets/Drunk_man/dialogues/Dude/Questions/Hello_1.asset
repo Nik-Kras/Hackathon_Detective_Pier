@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e87094207160f3549bc25e32c65f0215, type: 3}
+  m_Name: Hello_1
+  m_EditorClassIdentifier: 
+  questions:
+  - question: Hi, I am detectie Pier, may I ask you a couple of questions?
+    dialogue: {fileID: 11400000, guid: 50ccca6f0132de9458299b17395569fd, type: 2}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 0
