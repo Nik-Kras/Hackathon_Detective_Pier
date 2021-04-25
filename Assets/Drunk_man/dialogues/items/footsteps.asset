@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14afe3238286e144096f3ffdb8cb4518, type: 3}
+  m_Name: footsteps
+  m_EditorClassIdentifier: 
+  sentences:
+  - "\u201CHmm, big size, probably 41-43. They are so wet and dirty. No wonder, because
+    it was raining yesterday. If you look at them accurate you can notice that the
+    toe of the boot hardly touched the floor. Also, steps are very gradual, killer
+    was not worried at all. Strange, very strange\u201D"
+  questions: {fileID: 0}

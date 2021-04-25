@@ -13,8 +13,15 @@ MonoBehaviour:
   m_Name: Police_end
   m_EditorClassIdentifier: 
   questions:
-  - question: 
+  - question: Ok
+    dialogue: {fileID: 11400000, guid: f0be820b2cc06c54ca38847f83b9f9bb, type: 2}
+    inventoryContainsObjectKey: Tablet
+    sequenceEvent: GAME_START
+    evedenceKeyEvent: 
+    endConversation: 0
+  - question: '[End dialogue]'
     dialogue: {fileID: 0}
     inventoryContainsObjectKey: 
-    sequenceEvent: End_Stage_1
+    sequenceEvent: waiting for tablet
+    evedenceKeyEvent: 
     endConversation: 1

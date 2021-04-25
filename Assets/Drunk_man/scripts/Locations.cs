@@ -10,6 +10,7 @@ public class KeyPairStringCamera
 {
     public string locationName;
     public Camera camera;
+    public AudioClip soundClip;
 }
 public class Locations : MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class Locations : MonoBehaviour
     [SerializeField] private Camera _currentCamera;
     [SerializeField] private UnityEvent _onOpenEvent;
     [SerializeField] private UnityEvent _onCloseEvent;
+    
+    [SerializeField] private AudioSource _audioSource;
 
     public void Open()
     {
@@ -45,6 +48,8 @@ public class Locations : MonoBehaviour
                 _currentCamera.gameObject.SetActive(false);
                 keyPair.camera.gameObject.SetActive(true);
 
+                _audioSource.clip = keyPair.soundClip;
+                _audioSource.Play();
                 _currentCamera = keyPair.camera;
                 
                 return;

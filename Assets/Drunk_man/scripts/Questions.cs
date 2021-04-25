@@ -13,6 +13,7 @@ public class Question
 	public string inventoryContainsObjectKey;
 
 	public string sequenceEvent;
+	public string evedenceKeyEvent;
 	
 	public bool endConversation;
 }
