@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14afe3238286e144096f3ffdb8cb4518, type: 3}
+  m_Name: Kira_ans_shoe_2
+  m_EditorClassIdentifier: 
+  sentences:
+  - 'What??? Are you crazy? '
+  - "I haven\u2019t done this! It\u2019s a madness! I don\u2019t know why my shoe
+    suits the marks but it was not me, I swear! (He looks very stressed)"
+  questions: {fileID: 11400000, guid: d272105d1e41874488ffda04275c4390, type: 2}

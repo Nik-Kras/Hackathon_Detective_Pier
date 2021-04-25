@@ -16,7 +16,7 @@ MonoBehaviour:
   - question: "We found them in the sea\u2026 And the shoe marks match the sole of
       this shoe. Kira, this is enaugh to catch you. Do you want to confess what you
       did?"
-    dialogue: {fileID: 0}
+    dialogue: {fileID: 11400000, guid: 95b06cd9a0a61544b8bd812179d643e1, type: 2}
     inventoryContainsObjectKey: 
     sequenceEvent: 
     endConversation: 0

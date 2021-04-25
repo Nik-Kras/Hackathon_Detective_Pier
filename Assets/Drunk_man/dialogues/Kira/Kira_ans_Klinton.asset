@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14afe3238286e144096f3ffdb8cb4518, type: 3}
+  m_Name: Kira_ans_Klinton
+  m_EditorClassIdentifier: 
+  sentences:
+  - Oh, I know that you want to use my answer as a motivation, but it was not me!
+  - '*makes deep inhale, exhale*'
+  - Okay.
+  - 'We have been competitors since the first day of fishing. When one of us finished
+    fishing earlier, other takes less money for selling. We argued a lot about this. '
+  - But I will not kill a man because of money! I am not such a person, detective,
+    I swear!
+  questions: {fileID: 11400000, guid: 80df6fbb1ee6ba14e9804d142f1f6be2, type: 2}

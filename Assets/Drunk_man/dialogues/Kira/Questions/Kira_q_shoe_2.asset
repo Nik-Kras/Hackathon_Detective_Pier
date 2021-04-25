@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e87094207160f3549bc25e32c65f0215, type: 3}
-  m_Name: Kira_q_shoe_1
+  m_Name: Kira_q_shoe_2
   m_EditorClassIdentifier: 
   questions:
-  - question: "We found them in the sea\u2026 And the shoe marks match the sole of
-      this shoe. Kira, this is enaugh to catch you. Do you want to confess what you
-      did?"
-    dialogue: {fileID: 0}
+  - question: You have enaugh strength to pin body to the wall using harpoon, you
+      are a good fisher as Klinot was.
+    dialogue: {fileID: 11400000, guid: 463d02979e4842a47838b82fa40f791e, type: 2}
     inventoryContainsObjectKey: 
     sequenceEvent: 
     endConversation: 0

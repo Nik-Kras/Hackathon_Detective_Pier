@@ -14,26 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questions:
   - question: Yes, this is Kira
-    dialogue: {fileID: 0}
+    dialogue: {fileID: 11400000, guid: 0aad58942f4a4a04faa22ccb5cea3faa, type: 2}
     inventoryContainsObjectKey: 
     sequenceEvent: Verdict_False
-    endConversation: 1
+    endConversation: 0
   - question: Yes, this is Ann
-    dialogue: {fileID: 0}
+    dialogue: {fileID: 11400000, guid: 0aad58942f4a4a04faa22ccb5cea3faa, type: 2}
     inventoryContainsObjectKey: 
     sequenceEvent: Verdict_False
-    endConversation: 1
+    endConversation: 0
   - question: Yes, this is Sally
-    dialogue: {fileID: 0}
+    dialogue: {fileID: 11400000, guid: 0aad58942f4a4a04faa22ccb5cea3faa, type: 2}
     inventoryContainsObjectKey: 
     sequenceEvent: Verdict_False
-    endConversation: 1
+    endConversation: 0
   - question: Yes, this is Drunk-man
-    dialogue: {fileID: 0}
+    dialogue: {fileID: 11400000, guid: 0aad58942f4a4a04faa22ccb5cea3faa, type: 2}
     inventoryContainsObjectKey: 
     sequenceEvent: Verdict_True
-    endConversation: 1
+    endConversation: 0
   - question: Yes, this is Peter
+    dialogue: {fileID: 11400000, guid: 0aad58942f4a4a04faa22ccb5cea3faa, type: 2}
+    inventoryContainsObjectKey: 
+    sequenceEvent: Verdict_False
+    endConversation: 0
+  - question: '[End Conversation]'
     dialogue: {fileID: 0}
     inventoryContainsObjectKey: 
     sequenceEvent: Verdict_False

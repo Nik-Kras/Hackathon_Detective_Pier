@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14afe3238286e144096f3ffdb8cb4518, type: 3}
-  m_Name: Kira_ans_shoe 3
+  m_Name: Kira_ans_visited
   m_EditorClassIdentifier: 
   sentences:
-  - 
+  - "Emm, we are not friends. I have never been there. I even don\u2019t know what
+    he has in the house."
   questions: {fileID: 11400000, guid: 80df6fbb1ee6ba14e9804d142f1f6be2, type: 2}
