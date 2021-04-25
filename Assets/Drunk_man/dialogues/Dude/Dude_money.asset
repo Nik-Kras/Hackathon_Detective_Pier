@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Dude_money
   m_EditorClassIdentifier: 
   sentences:
-  - 'It is not youe problem, moth****cker! '
+  - 'It is not your problem, moth****cker! '
   questions: {fileID: 11400000, guid: 864991df268cfb6478878cb352f91fb6, type: 2}

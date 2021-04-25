@@ -15,7 +15,7 @@ MonoBehaviour:
   sentences:
   - 'Together with my son I visited my friend. We was there from 15:00 to 19, oh,
     no, to 22:00. Afterwards my son went to the shop and I went in the opposide direction,
-    to home.  '
+    to the home.  '
   - "There I found my poor Klinton\u2026 (she looks stressed, but maybe because of
     tragedy/ sorrow)"
   questions: {fileID: 11400000, guid: ea4ee03929928794cb0b36a5a9984c3a, type: 2}

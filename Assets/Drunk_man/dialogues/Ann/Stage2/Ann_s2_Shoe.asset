@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14afe3238286e144096f3ffdb8cb4518, type: 3}
-  m_Name: Pol_Ann
+  m_Name: Ann_s2_Shoe
   m_EditorClassIdentifier: 
   sentences:
-  - 'She said that she were visiting her friend both with Sally, it is her son. She
-    has an aliby, her friend proofed it. '
-  - "At 22:00 they left the friends\u2019 house. Son went to the shop while Ann decided
-    to go to the home. There she found the body."
-  questions: {fileID: 11400000, guid: b34092c4a7cc68a43b02cef71453eb36, type: 2}
+  - Emm, what a strange question, detective Pier. Where did you get it? I see it
+    for the first time!
+  - (She looked stressed)
+  questions: {fileID: 11400000, guid: d9bc61bb64cadd14e966576e72ea9b87, type: 2}

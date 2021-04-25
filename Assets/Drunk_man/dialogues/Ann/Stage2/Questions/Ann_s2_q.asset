@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e87094207160f3549bc25e32c65f0215, type: 3}
+  m_Name: Ann_s2_q
+  m_EditorClassIdentifier: 
+  questions:
+  - question: Tell me about  your relationship with husband.
+    dialogue: {fileID: 11400000, guid: c31c857caf0c8254e89bc16d5f56afb2, type: 2}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 0
+  - question: Tell me about your relationship with Peter.
+    dialogue: {fileID: 11400000, guid: 77ee7b655162fdb4591b33b439fdd565, type: 2}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 0
+  - question: "Where did you leave friends\u2019 house?"
+    dialogue: {fileID: 11400000, guid: c6e90472078781948b8ede720f7c6461, type: 2}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 0
+  - question: Are you sure? Kid said other time.
+    dialogue: {fileID: 11400000, guid: 991b735eb6153a64bb49075234db71b0, type: 2}
+    inventoryContainsObjectKey: Kids_time_evidence
+    sequenceEvent: 
+    endConversation: 0
+  - question: Have you been robbed?
+    dialogue: {fileID: 11400000, guid: e39a59de2a04cc24eae489991d1b0e97, type: 2}
+    inventoryContainsObjectKey: Dude_robbed_evidence
+    sequenceEvent: 
+    endConversation: 0
+  - question: 'Do you remember this boot? *Show a shoe* '
+    dialogue: {fileID: 11400000, guid: a27f7fef46cdb104380be659af9113c4, type: 2}
+    inventoryContainsObjectKey: shoe
+    sequenceEvent: 
+    endConversation: 0
+  - question: '[End Conversation]'
+    dialogue: {fileID: 0}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 1

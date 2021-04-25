@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14afe3238286e144096f3ffdb8cb4518, type: 3}
   m_Name: Ann_s2_hello
   m_EditorClassIdentifier: 
-  sentences: []
+  sentences:
+  - Yes, detective, how can I help you?
   questions: {fileID: 0}

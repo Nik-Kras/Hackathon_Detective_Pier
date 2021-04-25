@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: F_s1_Klinton
   m_EditorClassIdentifier: 
   sentences:
-  - 'Hmm, to be fair, he was a hard man with bad character. If we speaking about
+  - 'Hmm, to be fair, he was a hard man with bad character. If we are speaking about
     relationship with citizens, he was inconversable, taciturn. '
-  - 'Sometimes he is hot-tempered and rude, that is why in this town he might have
+  - 'Sometimes he was hot-tempered and rude, that is why in this town he might had
     few foes, especcially among drunks. '
-  - "He hate alcohol, it is one of his rules \u2013 to not drink alcohol, never\u2026
+  - "He hated alcohol, it was one of his rules \u2013 to not drink alcohol, never\u2026
     But, he loved his job. Moreover, it was a good way to earn money. "
-  - Talking about relationship with family I can say that he is a great husband and
-    father. He provides them a good accomodation, always gives money for daily expenses.
+  - Talking about relationship with family I can say that he was a great husband
+    and father. He provided them a good accomodation, always gave money for daily
+    expenses.
   questions: {fileID: 11400000, guid: 7ccf14d128354a04d88447559f96509a, type: 2}

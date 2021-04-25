@@ -15,7 +15,7 @@ MonoBehaviour:
   sentences:
   - '*second pause*'
   - 'I think we are good friends with Ann. (He looks stressed) '
-  - 'If she needs my help I will do it, for sure. Actually, she recently she told
+  - 'If she needs my help I will do it, for sure. Actually, she recently has told
     me that it is hard to live in Klinton house now. I invited her to stay with me
     for some time. I have a place for her son too.  '
   questions: {fileID: 11400000, guid: 33678f58e79850144ba166ae62203922, type: 2}

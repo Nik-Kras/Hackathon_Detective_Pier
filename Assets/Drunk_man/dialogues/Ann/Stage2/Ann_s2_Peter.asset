@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14afe3238286e144096f3ffdb8cb4518, type: 3}
-  m_Name: Pol_Ann
+  m_Name: Ann_s2_Peter
   m_EditorClassIdentifier: 
   sentences:
-  - 'She said that she were visiting her friend both with Sally, it is her son. She
-    has an aliby, her friend proofed it. '
-  - "At 22:00 they left the friends\u2019 house. Son went to the shop while Ann decided
-    to go to the home. There she found the body."
-  questions: {fileID: 11400000, guid: b34092c4a7cc68a43b02cef71453eb36, type: 2}
+  - Emm, what can I say?
+  - "Let\u2019s start with that Peter is a friend I can rely on (She looks stressed)"
+  - Hmm, I think he will earn a lot of money, because Kira will go to jail and Peter
+    will have no rival in fishing.
+  questions: {fileID: 11400000, guid: d9bc61bb64cadd14e966576e72ea9b87, type: 2}

@@ -15,8 +15,7 @@ MonoBehaviour:
   sentences:
   - Thank you. But he was not just a friend. A few decades ago we started a fishing
     together. We both started out in poverty and become who we are today.
-  - "He set a group of strong rules and by followinf them we reached success. This
-    is so sad. I can\u2019t no longer work in the sea, since I hurted my hand. His
-    son is to young to try it, that means equipment can be only saled."
+  - He set a group of strong rules and by following them we reached success. This
+    is so sad. His son is to young to try it...
   - "So pitty\u2026"
   questions: {fileID: 11400000, guid: 7ccf14d128354a04d88447559f96509a, type: 2}

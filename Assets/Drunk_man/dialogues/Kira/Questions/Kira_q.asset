@@ -10,21 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e87094207160f3549bc25e32c65f0215, type: 3}
-  m_Name: Sally_s2_q_stage5
+  m_Name: Kira_q
   m_EditorClassIdentifier: 
   questions:
-  - question: When did you go to the shop?
-    dialogue: {fileID: 11400000, guid: a024dd00adb373d4abbe30d7c49e1694, type: 2}
+  - question: What is your shoe size, Kira?
+    dialogue: {fileID: 0}
     inventoryContainsObjectKey: 
     sequenceEvent: 
     endConversation: 0
-  - question: Was your father nice to you?
-    dialogue: {fileID: 11400000, guid: f871ff9752305064dbf5a81913901123, type: 2}
+  - question: Look. Is it your shoe?
+    dialogue: {fileID: 0}
+    inventoryContainsObjectKey: shoe
+    sequenceEvent: 
+    endConversation: 0
+  - question: 
+    dialogue: {fileID: 0}
     inventoryContainsObjectKey: 
     sequenceEvent: 
     endConversation: 0
-  - question: What can you tell about relationship between your mother and Peter?
-    dialogue: {fileID: 11400000, guid: faa2637a3eb3f1d4b826b4327fe54885, type: 2}
+  - question: 
+    dialogue: {fileID: 0}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 0
+  - question: 
+    dialogue: {fileID: 0}
     inventoryContainsObjectKey: 
     sequenceEvent: 
     endConversation: 0

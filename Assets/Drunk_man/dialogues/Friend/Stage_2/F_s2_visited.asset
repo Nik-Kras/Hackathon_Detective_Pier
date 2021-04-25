@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: F_s2_visited
   m_EditorClassIdentifier: 
   sentences:
-  - 'It may look strange, but I have never been there. Usually we hanged out in my
-    appartment or in the bar.  '
+  - 'It may looks strange, but I have never been there. Usually we hanged out in
+    my appartment or in the bar.  '
   questions: {fileID: 11400000, guid: 33678f58e79850144ba166ae62203922, type: 2}
