@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14afe3238286e144096f3ffdb8cb4518, type: 3}
+  m_Name: Pol_suspects
+  m_EditorClassIdentifier: 
+  sentences:
+  - 'Yes. We are almost sure that his neighburg, who is a business competitor, but
+    still looking for more essential evidences. '
+  - "Right now we have a motivation for him \u2013 to remove a main rival. As a result,
+    it would be easier to grow your business. "
+  - "Moreover, the widow said that they had really bad relationship. We only need
+    to find out who left the shoes marks. If his competitor done it \u2013 this is
+    enaugh to catch him! "
+  questions: {fileID: 11400000, guid: b34092c4a7cc68a43b02cef71453eb36, type: 2}

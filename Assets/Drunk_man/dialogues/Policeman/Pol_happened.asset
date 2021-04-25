@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14afe3238286e144096f3ffdb8cb4518, type: 3}
+  m_Name: Pol_happened
+  m_EditorClassIdentifier: 
+  sentences:
+  - 'We must ask you about it! Those detectives are so stupid.. A murder commited. '
+  - "Someone walks into the Klintons\u2019 house in a wet and dirty shoes, grabbed
+    a harpoon from the cabinet and hit the sailor so hard that the weapon went through
+    the man and got stuck in the wall. "
+  - "As you see, killer left a message pinned near to the seaman. We haven\u2019t
+    touched it yet. We're taking photos now, give us a few minutes to finish this
+    process, and then please touch whatever you want."
+  questions: {fileID: 11400000, guid: b34092c4a7cc68a43b02cef71453eb36, type: 2}

@@ -10,11 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e87094207160f3549bc25e32c65f0215, type: 3}
-  m_Name: Hello_1
+  m_Name: Friend_q
   m_EditorClassIdentifier: 
   questions:
-  - question: Hi, I am detectie Pier...
-    dialogue: {fileID: 11400000, guid: 50ccca6f0132de9458299b17395569fd, type: 2}
+  - question: I am sorry that you have lost a friend.
+    dialogue: {fileID: 11400000, guid: c12f9b9bce8677b4db5d7a392d5965ea, type: 2}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 0
+  - question: 
+    dialogue: {fileID: 0}
     inventoryContainsObjectKey: 
     sequenceEvent: 
     endConversation: 0

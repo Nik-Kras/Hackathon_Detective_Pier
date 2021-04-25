@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e87094207160f3549bc25e32c65f0215, type: 3}
+  m_Name: Police_q
+  m_EditorClassIdentifier: 
+  questions:
+  - question: What happened here?
+    dialogue: {fileID: 11400000, guid: 9c794f88f0896a0479cda8b8d88743a7, type: 2}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 0
+  - question: Do you already have suspects?
+    dialogue: {fileID: 11400000, guid: 559c7e77becc19b44b2ef83307c9c81b, type: 2}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 0
+  - question: 'Where he was seen the last time before the murder? '
+    dialogue: {fileID: 11400000, guid: 9accd2c5c7f99c049b3d2b6ff5d5a83a, type: 2}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 0
+  - question: Where was Ann before a murder?
+    dialogue: {fileID: 11400000, guid: 71da732faef59b344b217fa88adfd6f7, type: 2}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 0
+  - question: I have already asked all the questions I wanted. I am done.
+    dialogue: {fileID: 11400000, guid: 58fc7d0779dcafe4da7a12ad73ffd5a2, type: 2}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 0

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e87094207160f3549bc25e32c65f0215, type: 3}
+  m_Name: Dude_Stage_4
+  m_EditorClassIdentifier: 
+  questions:
+  - question: What did you steal?
+    dialogue: {fileID: 11400000, guid: 1830028d0f7ce6947b7d8bba4d338a4b, type: 2}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 0
+  - question: Where were you from 18:00 to 23:00?
+    dialogue: {fileID: 11400000, guid: d645df22c7e003f44a7e75abcffc89b9, type: 2}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 0
+  - question: Where do you get money to drink?
+    dialogue: {fileID: 11400000, guid: 30d4e5279c4e5374db0269ea2d829d38, type: 2}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 0
+  - question: Did you know a seaman Klinton?
+    dialogue: {fileID: 11400000, guid: 7153b6a6172317447baad30a83a6da98, type: 2}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 0
+  - question: Do you always drunk?
+    dialogue: {fileID: 11400000, guid: 5cbf038dc1b5eb04086158d416205dff, type: 2}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 0

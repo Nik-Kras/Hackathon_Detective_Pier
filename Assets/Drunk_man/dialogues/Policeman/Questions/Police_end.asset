@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e87094207160f3549bc25e32c65f0215, type: 3}
-  m_Name: Hello_1
+  m_Name: Police_end
   m_EditorClassIdentifier: 
   questions:
-  - question: Hi, I am detectie Pier...
-    dialogue: {fileID: 11400000, guid: 50ccca6f0132de9458299b17395569fd, type: 2}
+  - question: 
+    dialogue: {fileID: 0}
     inventoryContainsObjectKey: 
-    sequenceEvent: 
-    endConversation: 0
+    sequenceEvent: End_Stage_1
+    endConversation: 1
