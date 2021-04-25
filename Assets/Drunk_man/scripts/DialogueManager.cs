@@ -35,6 +35,7 @@ public class DialogueManager : MonoBehaviour {
 	void Start () 
 	{
 		sentences = new Queue<string>();
+		_events = new List<string>();
 		instance = this;
 	}
 
