@@ -10,16 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e87094207160f3549bc25e32c65f0215, type: 3}
-  m_Name: Ann_s1_q_stage2
+  m_Name: Ann_s1_q_stage3_force
   m_EditorClassIdentifier: 
   questions:
-  - question: No, you will tell me now!
-    dialogue: {fileID: 11400000, guid: a80e5a0c00651b44e9e54724b3074d75, type: 2}
+  - question: Tell me about your relationsip with Klinton.
+    dialogue: {fileID: 11400000, guid: b46831406fc0a274c8dba4b671998dd6, type: 2}
     inventoryContainsObjectKey: 
-    sequenceEvent: Ann_Loop_event_force
+    sequenceEvent: 
     endConversation: 0
-  - question: Yes, of course, lets talk later.
-    dialogue: {fileID: 11400000, guid: d095c040d9f6e78449cbd3df9b28e59a, type: 2}
+  - question: Where were you from 18:00 to 23:00?
+    dialogue: {fileID: 11400000, guid: abb5fe276e167d741bcc689fec67307c, type: 2}
     inventoryContainsObjectKey: 
-    sequenceEvent: Ann_Loop_event_release
+    sequenceEvent: 
     endConversation: 0
+  - question: '[End Conversation]'
+    dialogue: {fileID: 0}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 1

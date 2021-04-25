@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14afe3238286e144096f3ffdb8cb4518, type: 3}
-  m_Name: Police_start_0
+  m_Name: Ann_s1_ans_force
   m_EditorClassIdentifier: 
   sentences:
-  - Good evening, detective Pier!
-  questions: {fileID: 11400000, guid: b34092c4a7cc68a43b02cef71453eb36, type: 2}
+  - Oh, God. These people have no heart....
+  - (she looks stressed, but maybe because of tragedy/ sorrow)
+  questions: {fileID: 11400000, guid: ea4ee03929928794cb0b36a5a9984c3a, type: 2}

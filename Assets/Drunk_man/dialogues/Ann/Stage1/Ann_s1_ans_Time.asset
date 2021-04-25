@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14afe3238286e144096f3ffdb8cb4518, type: 3}
+  m_Name: Ann_s1_ans_Time
+  m_EditorClassIdentifier: 
+  sentences:
+  - 'Together with my son I visited my friend. We was there from 15:00 to 19, oh,
+    no, to 22:00. Afterwards my son went to the shop and I went in the opposide direction,
+    to home.  '
+  - "There I found my poor Klinton\u2026 (she looks stressed, but maybe because of
+    tragedy/ sorrow)"
+  questions: {fileID: 11400000, guid: ea4ee03929928794cb0b36a5a9984c3a, type: 2}

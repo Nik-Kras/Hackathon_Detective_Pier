@@ -23,3 +23,8 @@ MonoBehaviour:
     inventoryContainsObjectKey: 
     sequenceEvent: 
     endConversation: 0
+  - question: '[End Conversation]'
+    dialogue: {fileID: 0}
+    inventoryContainsObjectKey: 
+    sequenceEvent: 
+    endConversation: 1
