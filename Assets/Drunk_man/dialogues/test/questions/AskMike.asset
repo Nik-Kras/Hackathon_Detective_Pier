@@ -21,6 +21,10 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: d9962d1ada7c15c41be80e8987e52210, type: 2}
     inventoryContainsObjectKey: 
     endConversation: 0
+  - question: Here take this (give infinity vodka)
+    dialogue: {fileID: 11400000, guid: 0260e6b4b8a549f43933b0f015ed2bb6, type: 2}
+    inventoryContainsObjectKey: item.vodka
+    endConversation: 0
   - question: Tell a story
     dialogue: {fileID: 11400000, guid: 06e2ba2eea903a643be783e076d03bf8, type: 2}
     inventoryContainsObjectKey: 
