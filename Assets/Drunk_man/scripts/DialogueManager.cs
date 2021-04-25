@@ -17,8 +17,7 @@ public class DialogueManager : MonoBehaviour {
 
 	public static DialogueManager instance; // Экземпляр объекта
 
-	[SerializeField]
-	private StringEvent onEvent; 
+	public StringEvent onEvent; 
 
 	[SerializeField]
 	private Animator dialogueAnimator;
@@ -30,7 +29,7 @@ public class DialogueManager : MonoBehaviour {
 	private static readonly int IsSpeakingTo = Animator.StringToHash("IsSpeakingTo");
 	private static readonly int IsOpen = Animator.StringToHash("IsOpen");
 
-	private List<string> events;
+	private List<string> _events;
 
 	// Use this for initialization
 	void Start () 
@@ -149,7 +148,7 @@ public class DialogueManager : MonoBehaviour {
 		if (question.sequenceEvent != "")
 		{
 			onEvent.Invoke(question.sequenceEvent);
-			events.Add(question.sequenceEvent);
+			_events.Add(question.sequenceEvent);
 		}
 	}
 
@@ -170,4 +169,6 @@ public class DialogueManager : MonoBehaviour {
 		if (_currentAnimator)
 			_currentAnimator.SetBool(IsSpeakingTo, false);
 	}
+	
+	public List<string> events => _events;
 }

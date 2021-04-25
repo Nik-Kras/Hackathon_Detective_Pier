@@ -18,6 +18,12 @@ public class NPC : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData pointerEventData)
     {
-        DialogueManager.instance.StartDialogue(npcName, portret, startDialogue, _animator);
+        Dialogue selectedDialogue = startDialogue;
+        if (DialogueManager.instance.events.Contains(eventConditionDialogue))
+            selectedDialogue = conditionalDialogue;
+        else
+            selectedDialogue = startDialogue;
+            
+        DialogueManager.instance.StartDialogue(npcName, portret, selectedDialogue, _animator);
     }
 }
