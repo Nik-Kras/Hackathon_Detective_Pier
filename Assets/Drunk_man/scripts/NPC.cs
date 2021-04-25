@@ -10,6 +10,9 @@ public class NPC : MonoBehaviour, IPointerClickHandler
     public string npcName;
     public Sprite portret;
 
+    public Dialogue conditionalDialogue;
+    public string eventConditionDialogue;
+
     [SerializeField]
     private Animator _animator;
 

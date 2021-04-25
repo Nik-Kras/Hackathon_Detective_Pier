@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
+[System.Serializable]
+public class StringEvent : UnityEvent<string> { }
+
 public class DialogueManager : MonoBehaviour {
 
 	public Image portretImage;
@@ -15,6 +18,9 @@ public class DialogueManager : MonoBehaviour {
 	public static DialogueManager instance; // Экземпляр объекта
 
 	[SerializeField]
+	private StringEvent onEvent; 
+
+	[SerializeField]
 	private Animator dialogueAnimator;
 
 	private Dialogue currentDialogue;
@@ -23,6 +29,8 @@ public class DialogueManager : MonoBehaviour {
 
 	private static readonly int IsSpeakingTo = Animator.StringToHash("IsSpeakingTo");
 	private static readonly int IsOpen = Animator.StringToHash("IsOpen");
+
+	private List<string> events;
 
 	// Use this for initialization
 	void Start () 
@@ -140,7 +148,8 @@ public class DialogueManager : MonoBehaviour {
 
 		if (question.sequenceEvent != "")
 		{
-			// TODO: Event system
+			onEvent.Invoke(question.sequenceEvent);
+			events.Add(question.sequenceEvent);
 		}
 	}
 
