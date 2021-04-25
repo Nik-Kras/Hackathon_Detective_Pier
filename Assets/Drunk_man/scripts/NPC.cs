@@ -13,14 +13,20 @@ public class NPC : MonoBehaviour, IPointerClickHandler
     public Dialogue conditionalDialogue;
     public string eventConditionDialogue;
 
+    public Dialogue conditionalDialogue2;
+    public string eventConditionDialogue2;
+
     [SerializeField]
     private Animator _animator;
 
     public void OnPointerClick(PointerEventData pointerEventData)
     {
-        Dialogue selectedDialogue = startDialogue;
+        Dialogue selectedDialogue;
+        
         if (DialogueManager.instance.events.Contains(eventConditionDialogue))
             selectedDialogue = conditionalDialogue;
+        else if (DialogueManager.instance.events.Contains(eventConditionDialogue2))
+            selectedDialogue = conditionalDialogue2;
         else
             selectedDialogue = startDialogue;
             
