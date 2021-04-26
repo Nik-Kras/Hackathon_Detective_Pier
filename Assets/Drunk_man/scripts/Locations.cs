@@ -56,4 +56,14 @@ public class Locations : MonoBehaviour
             }
         }
     }
+
+    public void StartGame()
+    {
+        Application.LoadLevel("ScenePier");
+    }
+    
+    public void EndGame()
+    {
+        Application.LoadLevel(DialogueManager.instance.isWin ? "EndGameGood" : "EndGameBad");
+    }
 }

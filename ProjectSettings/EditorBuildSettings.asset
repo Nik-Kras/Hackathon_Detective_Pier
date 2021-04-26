@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Drunk_man/scene/Preview.unity
+    guid: 3302e307583e7e24b8cb9153ec5791ec
+  - enabled: 1
+    path: Assets/Drunk_man/scene/ScenePier.unity
+    guid: ee3775bc45ee75f4ea6a71ca83efe14f
+  - enabled: 1
+    path: Assets/Drunk_man/scene/EndGameGood.unity
+    guid: fee8de292f2366b4b8b12a550ddeb966
+  - enabled: 1
+    path: Assets/Drunk_man/scene/EndGameBad.unity
+    guid: 42b02859b3d309e4c8dc5c7a4bb17bae
   m_configObjects: {}

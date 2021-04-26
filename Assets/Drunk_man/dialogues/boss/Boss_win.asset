@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14afe3238286e144096f3ffdb8cb4518, type: 3}
+  m_Name: Boss_win
+  m_EditorClassIdentifier: 
+  sentences:
+  - "Hello, detective Pier. Gangrads, Dude is a killer, he confessed to this. But
+    that's not all! Listen to how it all happened\u2026"
+  - "Klinton was abusive husband, he often hit Ann and screamed on her. She had a
+    lover \u2013 his best friend Peter. Probably she thought about leaving her husband
+    and going to Peter. That day, when murder was commited, Klinton was in the bar.
+    He played billiards at the bar. One of his rules was \u201CNever drink alcohol\u201D."
+  - " That is why he usually constantly quarreled at the bar with drunks. That day
+    he seriously quarreled with drunk man who call himself Dude. Few years ago Dude
+    stole money in the Klintons\u2019 home. He ruined everything in the house. That
+    is why he was aware that Klinton had harpoons in the closet."
+  - "Now listen the most interesting. Ann came back to home at 19:00, not at 23:00,
+    it was a lie. She had a time to clean up evidences and add new against a competitor.
+    She stole boots from Kira. He is a neighbor, so it took not a lot of time. She
+    put on Kiras\u2019 boots and left marks on the floor. "
+  - After she threw boots into the sea, but one of them didn't drown. Her motivation
+    is very simple. She wanted to kill two rabbits with one shot. Leave her husband
+    for Peter and get rid of a business competitor. We'll jail Dude for murder and
+    Anna for hindering the investigation.
+  questions: {fileID: 11400000, guid: 7752580b0e559b14d85d3bcca9405d10, type: 2}

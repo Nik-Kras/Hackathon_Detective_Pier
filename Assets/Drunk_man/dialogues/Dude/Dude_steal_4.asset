@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - "No, I didn\u2019t steal anything! No one knows it! And you will not proof that
-    I stolel something!"
+    I stole something!"
   questions: {fileID: 11400000, guid: 864991df268cfb6478878cb352f91fb6, type: 2}

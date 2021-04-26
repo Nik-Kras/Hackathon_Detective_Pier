@@ -39,7 +39,9 @@ public class Inventory : MonoBehaviour
     public void OnPickup(string key)
     {
         _objectKeys.Add(key);
-        AddEvedence(key);
+    
+        if (key != "Tablet")
+            AddEvedence(key);
         
         _onPickup.Invoke(key);
     }
