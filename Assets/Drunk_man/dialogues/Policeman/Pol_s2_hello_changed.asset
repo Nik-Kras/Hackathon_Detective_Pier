@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14afe3238286e144096f3ffdb8cb4518, type: 3}
-  m_Name: Pol_s2_thanks
+  m_Name: Pol_s2_hello_changed
   m_EditorClassIdentifier: 
   sentences:
-  - Great! Thank you, you are free now. Boss will call you after the court.
-  - Goodbye!
-  questions: {fileID: 11400000, guid: 4faf33b903f06294facd1b85bd28e156, type: 2}
+  - And?
+  questions: {fileID: 11400000, guid: 574b548f77ac3664da9c7d8cdf46e6f4, type: 2}

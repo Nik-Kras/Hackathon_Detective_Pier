@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14afe3238286e144096f3ffdb8cb4518, type: 3}
-  m_Name: Pol_s2_thanks
+  m_Name: Boss_win
   m_EditorClassIdentifier: 
   sentences:
-  - Great! Thank you, you are free now. Boss will call you after the court.
-  - Goodbye!
-  questions: {fileID: 11400000, guid: 4faf33b903f06294facd1b85bd28e156, type: 2}
+  - Detective Pier, congrats!
+  - You have solved another mystery.
+  - You will be promouted!
+  questions: {fileID: 11400000, guid: 7752580b0e559b14d85d3bcca9405d10, type: 2}

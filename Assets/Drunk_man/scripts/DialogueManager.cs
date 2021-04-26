@@ -16,12 +16,15 @@ public class DialogueManager : MonoBehaviour {
 	public GameObject prefabQuestionChoose;
 
 	public static DialogueManager instance; // Экземпляр объекта
+	[HideInInspector]
+	public bool isWin;
 
 	public StringEvent onEvent; 
 	public UnityEvent onShowInterface; 
+	public UnityEvent onEndGame; 
+	public AudioSource _clickPlay;
 
 	[SerializeField] private Animator dialogueAnimator;
-	[SerializeField] private AudioSource _clickPlay;
 	
 	private Dialogue currentDialogue;
 	private Queue<string> sentences;
@@ -164,6 +167,17 @@ public class DialogueManager : MonoBehaviour {
 			{
 				onShowInterface.Invoke();
 			}
+			
+			if (question.sequenceEvent == "GAME_END")
+			{
+				onEndGame.Invoke();
+			}
+			
+			if (question.sequenceEvent == "Verdict_False")
+				isWin = false;
+			
+			if (question.sequenceEvent == "Verdict_True")
+				isWin = true;
 		}
 
 		if (question.evedenceKeyEvent != "")

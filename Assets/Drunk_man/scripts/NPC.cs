@@ -21,6 +21,8 @@ public class NPC : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData pointerEventData)
     {
+        DialogueManager.instance._clickPlay.Play();
+        
         Dialogue selectedDialogue;
         
         if (DialogueManager.instance.events.Contains(eventConditionDialogue))
