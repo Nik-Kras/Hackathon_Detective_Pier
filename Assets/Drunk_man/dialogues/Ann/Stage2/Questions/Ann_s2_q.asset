@@ -17,34 +17,41 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: c31c857caf0c8254e89bc16d5f56afb2, type: 2}
     inventoryContainsObjectKey: 
     sequenceEvent: 
+    evedenceKeyEvent: 
     endConversation: 0
   - question: Tell me about your relationship with Peter.
     dialogue: {fileID: 11400000, guid: 77ee7b655162fdb4591b33b439fdd565, type: 2}
     inventoryContainsObjectKey: 
     sequenceEvent: 
+    evedenceKeyEvent: 
     endConversation: 0
-  - question: "Where did you leave friends\u2019 house?"
+  - question: "When did you leave friends\u2019 house?"
     dialogue: {fileID: 11400000, guid: c6e90472078781948b8ede720f7c6461, type: 2}
     inventoryContainsObjectKey: 
     sequenceEvent: 
+    evedenceKeyEvent: 
     endConversation: 0
   - question: Are you sure? Kid said other time.
     dialogue: {fileID: 11400000, guid: 991b735eb6153a64bb49075234db71b0, type: 2}
     inventoryContainsObjectKey: Kids_time_evidence
     sequenceEvent: 
+    evedenceKeyEvent: 
     endConversation: 0
   - question: Have you been robbed?
     dialogue: {fileID: 11400000, guid: e39a59de2a04cc24eae489991d1b0e97, type: 2}
     inventoryContainsObjectKey: Dude_robbed_evidence
     sequenceEvent: 
+    evedenceKeyEvent: 
     endConversation: 0
   - question: 'Do you remember this boot? *Show a shoe* '
     dialogue: {fileID: 11400000, guid: a27f7fef46cdb104380be659af9113c4, type: 2}
     inventoryContainsObjectKey: shoe
     sequenceEvent: 
+    evedenceKeyEvent: 
     endConversation: 0
   - question: '[End Conversation]'
     dialogue: {fileID: 0}
     inventoryContainsObjectKey: 
     sequenceEvent: 
+    evedenceKeyEvent: 
     endConversation: 1

@@ -17,29 +17,35 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: e5c9ff7f8e40b1947b33c3f4ff4467b2, type: 2}
     inventoryContainsObjectKey: 
     sequenceEvent: 
+    evedenceKeyEvent: 
     endConversation: 0
   - question: Look. Is it your shoe?
     dialogue: {fileID: 11400000, guid: 3462ad7c3abc51c418bcdf4ac1caf3b8, type: 2}
-    inventoryContainsObjectKey: shoe
+    inventoryContainsObjectKey: Shoe in water
     sequenceEvent: 
+    evedenceKeyEvent: 
     endConversation: 0
   - question: 'What can you tell about your relationship with Klinton? '
     dialogue: {fileID: 11400000, guid: ddc1c631ed17bf147875cab3fba4720e, type: 2}
     inventoryContainsObjectKey: 
     sequenceEvent: 
+    evedenceKeyEvent: 
     endConversation: 0
   - question: Where were you from 18:00 to 23:00?
     dialogue: {fileID: 11400000, guid: 61206a7d46a802e4a99a322a02e1a69e, type: 2}
     inventoryContainsObjectKey: 
     sequenceEvent: 
+    evedenceKeyEvent: 
     endConversation: 0
   - question: "When you visited Klinton\u2019s home the last time?"
     dialogue: {fileID: 11400000, guid: 8eee9e39b3f70044a947efff9bb1987a, type: 2}
     inventoryContainsObjectKey: 
     sequenceEvent: 
+    evedenceKeyEvent: 
     endConversation: 0
   - question: '[End Conversation]'
     dialogue: {fileID: 0}
     inventoryContainsObjectKey: 
     sequenceEvent: 
+    evedenceKeyEvent: 
     endConversation: 1
