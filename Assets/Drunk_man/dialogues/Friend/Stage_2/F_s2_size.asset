@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: F_s2_size
   m_EditorClassIdentifier: 
   sentences:
-  - Mmm, 39. No, even 38.
+  - Mmm, 43. No, even 42.
   questions: {fileID: 11400000, guid: 33678f58e79850144ba166ae62203922, type: 2}

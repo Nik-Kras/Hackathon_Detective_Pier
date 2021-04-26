@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Kira_ans_shoe_size
   m_EditorClassIdentifier: 
   sentences:
-  - Around 42, why does it matter?
+  - Around 46, why does it matter?
   questions: {fileID: 11400000, guid: 80df6fbb1ee6ba14e9804d142f1f6be2, type: 2}
