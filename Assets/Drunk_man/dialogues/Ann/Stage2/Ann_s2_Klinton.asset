@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Ann_s2_Klinton
   m_EditorClassIdentifier: 
   sentences:
-  - "Umm, I don\u2019t really know what to say. He was a good husband. He earned
-    money and brought all money to the family. (She looks stressed a bit)"
+  - "Umm, I don\u2019t really know what to say. He was a good husband. He was earning
+    money and bringing all money to the family. (She looks stressed a bit)"
   questions: {fileID: 11400000, guid: d9bc61bb64cadd14e966576e72ea9b87, type: 2}
